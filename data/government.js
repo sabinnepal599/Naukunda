@@ -1,0 +1,16 @@
+var government = {
+"type": "FeatureCollection",
+"name": "government",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Ward": 1, "Settlement": "Longbhu", "Latitude": 28.0276185, "Longitude": 85.27834, "Type": "Government Office", "Name": "Ward 1 Office", "gfd": "j8f g+ ! sfof{no" }, "geometry": { "type": "Point", "coordinates": [ 85.27834, 28.0276185 ] } },
+{ "type": "Feature", "properties": { "Ward": 5, "Settlement": "chiti", "Latitude": 27.9878632, "Longitude": 85.2445153, "Type": "Government Office", "Name": "Ward 5 Office", "gfd": "j8f g+ % sfof{no" }, "geometry": { "type": "Point", "coordinates": [ 85.2445153, 27.9878632 ] } },
+{ "type": "Feature", "properties": { "Ward": 6, "Settlement": "Sarshyau", "Latitude": 28.006677546399999, "Longitude": 85.251979476499997, "Type": "Government Office", "Name": "Ward 6 Office", "gfd": "j8f g+ ^ sfof{no" }, "geometry": { "type": "Point", "coordinates": [ 85.251979476486355, 28.00667754637135 ] } },
+{ "type": "Feature", "properties": { "Ward": 4, "Settlement": "Sarmathali", "Latitude": 27.9753928, "Longitude": 85.2731572, "Type": "Government Office", "Name": "Ward 4 Office", "gfd": "j8f g+= $ sfof{no" }, "geometry": { "type": "Point", "coordinates": [ 85.2731572, 27.9753928 ] } },
+{ "type": "Feature", "properties": { "Ward": 2, "Settlement": "Kalikstan", "Latitude": 27.9970922, "Longitude": 85.2055453, "Type": "Government Office", "Name": "Nepal Electricity Authority", "gfd": "g]kfn ljB't k|flws/0f" }, "geometry": { "type": "Point", "coordinates": [ 85.2055453, 27.9970922 ] } },
+{ "type": "Feature", "properties": { "Ward": 2, "Settlement": "Yarsha", "Latitude": 28.0177666, "Longitude": 85.3055337, "Type": "Government Office", "Name": "Ward 2 Office", "gfd": "j8f g+= @ sfof{no" }, "geometry": { "type": "Point", "coordinates": [ 85.3055337, 28.0177666 ] } },
+{ "type": "Feature", "properties": { "Ward": 3, "Settlement": "Parchyang", "Latitude": 28.0121142, "Longitude": 85.2772625, "Type": "Government Office", "Name": "Naukunda RM Office", "gfd": "gf}s'08 uf=kf= sfof{no" }, "geometry": { "type": "Point", "coordinates": [ 85.2772625, 28.0121142 ] } },
+{ "type": "Feature", "properties": { "Ward": 6, "Settlement": "Dunche rasuwa", "Latitude": 28.1117757, "Longitude": 85.2957563, "Type": "Government Office", "Name": "Nepal Telecom", "gfd": "g]kfn 6]lnsd" }, "geometry": { "type": "Point", "coordinates": [ 85.2957563, 28.1117757 ] } },
+{ "type": "Feature", "properties": { "Ward": 3, "Settlement": "Parchyang", "Latitude": 28.0115754, "Longitude": 85.2727335, "Type": "Government Office", "Name": "Ward 3 Office", "gfd": "j8f g+= # sfof{no" }, "geometry": { "type": "Point", "coordinates": [ 85.2727335, 28.0115754 ] } }
+]
+}
