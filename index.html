@@ -178,8 +178,8 @@
         iconAnchor: [0, 0],
     });
 
-    var catII_icon = L.icon({
-        iconUrl: 'data/catII.svg',
+    var catii = L.icon({
+        iconUrl: 'data/catii.svg',
         iconSize: [20, 20],
         iconAnchor: [0, 0],
     });
@@ -223,7 +223,7 @@
 //cat II
 var catII = L.geoJSON(CatII, {
         pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, { icon: catII_icon });
+            return L.marker(latlng, { icon: catii });
         },
         onEachFeature: function (feature, latlng) {
             latlng.bindPopup('<b> CAT: </b>' + feature.properties.Category + '<br>'
@@ -391,7 +391,7 @@ map.addLayer(Evacuationassembly_Point);
         }, {
             label: "CAT II Settlement",
             type: "image",
-            url: "data/catII.svg"
+            url: "data/catii.svg"
         }, {
             label: "Evacuation Assembly Point",
             type: "image",
